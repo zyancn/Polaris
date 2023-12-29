@@ -8,7 +8,7 @@ interface Ad {
 export const useAd = () => {
   const { data } = useSWR("images_ad", () => {
     return fetch(
-      "https://raw.githubusercontent.com/vectorisvector/images/main/config.json",
+      "/",
     )
       .then((res) => res.json())
       .then((res) => res.ad as Ad);
