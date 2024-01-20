@@ -46,17 +46,8 @@ export default function Media() {
       </div>
 
       { <div className=" text-center">
-        <span>广告位招租☕️, dm </span>
-        <Box
-          component={Link}
-          href={"https://twitter.com/cybervector_"}
-          className=" hover:underline"
-          sx={{
-            color: "primary.main",
-          }}
-        >
-          @cybervector_
-        </Box>
+       <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6400746346592229"
+     crossorigin="anonymous"></script>
       </div> }
     </div>
   );
