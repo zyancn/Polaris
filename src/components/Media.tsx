@@ -46,8 +46,7 @@ export default function Media() {
       </div>
 
       { <div className=" text-center">
-       <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6400746346592229"
-     crossorigin="anonymous"></script>
+      AD
       </div> }
     </div>
   );
